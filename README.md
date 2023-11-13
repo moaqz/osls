@@ -1,6 +1,6 @@
 ## How to run it locally:
 
-**Install dependencies:**
+### Install dependencies:
 
 ```bash
 pnpm i
@@ -8,7 +8,7 @@ pnpm i
 npm i
 ```
 
-**Setup D1**:
+### Setup D1:
 
 1. Copy the sample configuration file:
 
@@ -28,11 +28,11 @@ wrangler d1 create osls
 wrangler d1 execute osls --local --file=./src/schema.sql
 ```
 
-**Generate Auth Secret:**
+### Generate Auth Secret:
 
-Generate a secure authentication secret and update the wrangler.toml file:
+Generate an authentication secret and update the `wrangler.toml` file:
 
-**Run server**
+### Run server:
 
 ```bash
 pnpm dev
