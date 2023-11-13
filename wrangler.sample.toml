@@ -1,0 +1,11 @@
+name = "osls"
+compatibility_date = "2023-01-01"
+
+[vars]
+AUTH_SECRET = ""
+
+[[d1_databases]]
+binding = "DB"
+database_name = "osls"
+database_id = "<your_database_id>"
+preview_database_id = "local-osls"
